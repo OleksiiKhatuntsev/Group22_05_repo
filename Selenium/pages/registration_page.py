@@ -1,8 +1,8 @@
 from selenium.webdriver.common.by import By
 
-from text_box import TextBox
-from button import Button
-from base_page import BasePage
+from Selenium.controls.text_box import TextBox
+from Selenium.controls.button import Button
+from .base_page import BasePage
 
 
 class RegistrationPage(BasePage):
