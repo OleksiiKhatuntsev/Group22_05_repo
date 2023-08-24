@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-from .base_page import BasePage
-from ..controls.label import Label
+from ...tests_sel.pages.base_page import BasePage
+from ...tests_sel.controls.label import Label
 
 
 class GaragePage(BasePage):
